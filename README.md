@@ -71,12 +71,6 @@ cd frontend
 npm install
 ```
 
-Create a `.env` file in the `frontend/` folder:
-
-```dotenv
-VITE_API_URL=http://localhost:8000
-```
-
 Start the frontend:
 
 ```bash
@@ -90,6 +84,3 @@ npm run dev
 - 📍 Satna, India
 - 🔗 [LinkedIn](https://www.linkedin.com/in/ainy-gupta-882917242/) 
 
----
-
-> ⭐ If you liked this project, consider giving it a star on GitHub!
