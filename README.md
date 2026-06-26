@@ -38,38 +38,6 @@ A full-stack developer portfolio built with **React (Vite)** on the frontend and
 
 ---
 
-## 📁 Project Structure
-
-```
-portfolio/
-├── frontend/               # React + Vite app
-│   ├── src/
-│   │   ├── components/     # Hero, About, Skills, Projects, Contact...
-│   │   ├── services/       # api.js (axios calls)
-│   │   └── App.jsx
-│   └── package.json
-│
-└── backend/                # FastAPI app
-    ├── main.py
-    ├── models.py
-    ├── routes/
-    │   ├── projects.py
-    │   └── contact.py
-    ├── .env
-    └── requirements.txt
-```
-
----
-
-## ⚙️ Local Setup
-
-### Prerequisites
-- Node.js >= 18
-- Python >= 3.10
-- Gmail account with App Password
-
----
-
 ### 1️⃣ Clone the repo
 
 ```bash
