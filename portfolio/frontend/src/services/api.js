@@ -15,6 +15,6 @@ export const getSkills = async () => {
 };
 
 export const sendContactForm = async (formData) => {
-  const response = await axios.post(`${API_BASE_URL}/contact/`, formData);
+  const response = await axios.post(`${API_BASE_URL}/contact`, formData); 
   return response.data;
 };
