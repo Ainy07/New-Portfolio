@@ -8,8 +8,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://new-portfolio.vercel.app",
-        "https://new-portfolio-chi-pearl.vercel.app"
+        "https://new-portfolio-imbcfzg8l-ainy-guptas-projects.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
