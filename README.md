@@ -80,7 +80,8 @@ npm run dev
 ## 📬 Contact
 
 **Ainy Gupta**
-- 📧 ainygupta00@gmail.com
-- 📍 Satna, India
-- 🔗 [LinkedIn](https://www.linkedin.com/in/ainy-gupta-882917242/) 
+- ainygupta00@gmail.com
+- Satna, India
+- [LinkedIn](https://www.linkedin.com/in/ainy-gupta-882917242/)
+- [Portfolio](https://new-portfolio-chi-pearl.vercel.app/)
 
