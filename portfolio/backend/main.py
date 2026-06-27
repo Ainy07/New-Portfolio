@@ -4,14 +4,12 @@ from routers import projects, skills, contact
 
 app = FastAPI(title="Ainy Gupta Portfolio API")
 
-origins = [
-    "http://localhost:5173",
-    "https://new-portfolio-jwts-4hip7oivd-ainy-guptas-projects.vercel.app",
-]
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=[
+        "http://localhost:5173",
+        "https://new-portfolio-jwts-4hip7oivd-ainy-guptas-projects.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
