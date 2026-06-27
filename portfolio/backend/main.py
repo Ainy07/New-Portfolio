@@ -8,7 +8,9 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://new-portfolio-jwts-4hip7oivd-ainy-guptas-projects.vercel.app",
+        "https://new-portfolio-jwts.vercel.app",
+        "https://new-portfolio-jwts-git-main-ainy-guptas-projects.vercel.app",
+        "https://new-portfolio-jwts-jzwqsioc5-ainy-guptas-projects.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
