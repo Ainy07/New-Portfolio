@@ -41,7 +41,7 @@ A full-stack developer portfolio built with **React (Vite)** on the frontend and
 ### 1️⃣ Clone the repo
 
 ```bash
-git clone https://github.com/ainy07/portfolio.git
+git clone https://github.com/ainy07/New-Portfolio.git
 cd portfolio
 ```
 
