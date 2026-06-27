@@ -6,7 +6,10 @@ app = FastAPI(title="Ainy Gupta Portfolio API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://your-portfolio.vercel.app"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://new-portfolio.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
