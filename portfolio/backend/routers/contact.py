@@ -21,7 +21,7 @@ conf = ConnectionConfig(
     USE_CREDENTIALS=True,
 )
 
-@router.post("/")
+@router.post("")
 async def send_message(form: ContactForm):
     try:
         message = MessageSchema(

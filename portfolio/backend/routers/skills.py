@@ -17,6 +17,6 @@ skills_data = [
     Skill(name="Redis", percentage=75),
 ]
 
-@router.get("/", response_model=list[Skill])
+@router.get("", response_model=list[Skill])
 def get_skills():
     return skills_data

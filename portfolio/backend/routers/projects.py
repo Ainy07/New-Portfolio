@@ -120,7 +120,7 @@ projects_data = [
             ),
 ]
 
-@router.get("/", response_model=list[Project])
+@router.get("", response_model=list[Project])
 def get_projects():
     return projects_data
 
