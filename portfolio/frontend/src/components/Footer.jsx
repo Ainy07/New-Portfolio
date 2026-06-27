@@ -9,7 +9,7 @@ function Footer() {
       </p>
       <div className="flex justify-center gap-6 text-sm mb-4">
         <a
-          href="https://www.linkedin.com/in/ainy-gupta"
+          href="https://www.linkedin.com/in/ainy-gupta-882917242/"
           target="_blank"
           rel="noreferrer"
           className="hover:text-accent transition-colors"
